@@ -1,0 +1,22 @@
+{
+  "name": "trucksim-streamer-toolkit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kniffen",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "electron": "^30.0.8",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "trucksim-telemetry": "^0.21.0"
+  }
+}
